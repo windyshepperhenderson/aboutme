@@ -6,8 +6,12 @@ body {
 
 H1 {
   text-align: center;
-  padding: 32px;
+  padding: 16px;
 }
+.welcome {
+  color: fuchsia;
+}
+
 h2 {
   text-align: center;
 }
@@ -19,6 +23,10 @@ h2 {
   width: 25%;
   padding: 16px;
 }
+h5 {
+  text-align: center;
+}
+
 h3 {
   padding: 16px;
   text-align: left;
@@ -36,6 +44,12 @@ h3 {
   font-size: 24px;
 }
 #btn2 {
+  margin: 16px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+
+#btn3 {
   margin: 16px;
   border-radius: 12px;
   font-size: 24px;

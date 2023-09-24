@@ -9,13 +9,30 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <header>
+    <header>   
       <h1>GETTING TO KNOW RORY</h1>
     </header>
     <main>
-          <h2>Welcome to my 'About Me' page</h2>
-      <img class="rorypic" src="./rory pic.jpg" alt="Pic of Rory" />
-      <h2>This is my face</h2>
+      <h2 class="welcome"><script>
+            function greet() {
+                let username = prompt(
+                    "Let's get to know each other, what's your name?"
+                );
+                
+                document.write(
+                    "Hello " + username + ". How delightful to have you here today."
+                );
+            }
+            greet();
+        </script></h2>
+        
+      <h2>Welcome to my 'About Me' page</h2>
+
+      <a href="https://uk.linkedin.com/in/rory-mcconnell-8b035296" target="_blank">
+        <img class="rorypic" src="./rory pic.jpg" alt="Pic of Rory">
+      </a>
+            <h2>This is my face</h2>
+            <h5>Click it for my LinkedIn</h5>
       <h3>
         Firstly,
         <p>
@@ -91,8 +108,9 @@
         Fun games to play
       </h3> 
       <div class="btn-wrapper">
-        <button id="btn1" onclick="mybtn1()">Guess my weight</button>
-        <button id="btn2" onclick="mybtn2()">Take the quiz</button>
+        <button id="btn1" onclick="mybtn1()">Take the quiz</button>
+        <button id="btn2" onclick="mybtn2()">Guess my Fav Number</button>
+        <button id="btn3" onclick="mybtn3()">Its' Only Words</button>
       </div>
       
       <h3>
